@@ -1,0 +1,65 @@
+<html lang="en" >
+<head>
+    <title>Map Dynamic</title>
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+    <style type="text/css">
+        #bodyContent img {
+            max-height:200px;
+        }
+    </style>
+</head>
+<body ng-app="CookAndCode" ng-controller="IndexController as index" ng-cloak layout="column">
+<!--
+  Your HTML content here
+-->
+<md-toolbar>
+    <div class="md-toolbar-tools">
+        <h2>
+            <span>breakout <b>MAPS</b></span>
+        </h2>
+        <span flex></span>
+        <md-button ng-click="index.startTimer()" class="md-raised">Play</md-button>
+    </div>
+</md-toolbar>
+<md-content flex layout="column">
+    <div id="map" flex></div>
+    <div layout-padding layout="row" layout-align="space-around center">
+        <div flex="20">
+            <md-input-container class="md-accent">
+                <label>Team</label>
+                <md-select class="md-accent" ng-model="index.team" ng-change="index.rebuildMarkers(index.time)">
+                    <md-option class="md-accent" ng-repeat="team in index.data.teams" value="{{team.id}}">{{team.name}}</md-option>
+                    <md-option class="md-accent" value="false" selected>Alle Teams</md-option>
+                </md-select>
+            </md-input-container>
+        </div>
+        <div flex="70">
+            <md-slider flex md-discrete ng-model="index.time" step="1" min="0" max="{{index.max}}" ng-change="index.rebuildMarkers(index.time)" aria-label="rating">
+            </md-slider>
+        </div>
+    </div>
+</md-content>
+
+
+<!-- Angular Material requires Angular.js Libraries -->
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+
+<!-- Angular Material Library -->
+<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+
+<!-- Hash -->
+<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha1.js"></script>
+
+<!-- Google Maps API -->
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwAyLIcu7aX__7tHYjRjbgoUET3Eom3vw">
+</script>
+
+<script src="map.js"></script>
+
+</body>
+</html>
