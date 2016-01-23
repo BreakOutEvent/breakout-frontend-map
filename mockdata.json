@@ -1,0 +1,255 @@
+{
+  "status": "success",
+  "data": {
+    "start": {
+      "lat": 48.150639,
+      "lng": 11.581024
+    },
+    "teams": [
+      {
+        "id": 1,
+        "name": "Team 12",
+        "posts": [
+          {
+            "id": 1,
+            "text": "Yeah Start!!",
+            "date": 1453537800,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 48.150935,
+              "lng": 11.581941
+            }
+          },
+          {
+            "id": 2,
+            "text": "Schon in Nürnberg!!",
+            "date": 1453548600,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 49.448475,
+              "lng": 11.075465
+            }
+          },
+          {
+            "id": 3,
+            "text": "Abendessen in Hamburg ;)",
+            "date": 1453566600,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 53.552158,
+              "lng": 10.023314
+            }
+          },
+          {
+            "id": 11,
+            "text": "Weiter in den Norden",
+            "date": 1453576600,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 55.527994,
+              "lng": 9.430041
+            }
+          },
+          {
+            "id": 12,
+            "text": "noch Weiter in den Norden",
+            "date": 1453589600,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 55.660021,
+              "lng": 12.515327
+            }
+          },
+          {
+            "id": 13,
+            "text": "Norden!!!",
+            "date": 1453599600,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 55.660021,
+              "lng": 12.515327
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Bestes Team",
+        "posts": [
+          {
+            "id": 4,
+            "text": "Gerade Losgegangen :D",
+            "date": 1453554800,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 48.150985,
+              "lng": 11.581911
+            }
+          },
+          {
+            "id": 5,
+            "text": "Auf in den süden",
+            "date": 1453567800,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 47.767786,
+              "lng": 12.100321
+            }
+          },
+          {
+            "id": 6,
+            "text": "Gardasee erreicht!!",
+            "date": 1453577800,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 45.861136,
+              "lng": 10.877517
+            }
+          },
+          {
+            "id": 7,
+            "text": "Und weiter gehts",
+            "date": 1453578800,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 44.714383,
+              "lng": 10.840862
+            }
+          },
+          {
+            "id": 14,
+            "text": "Und weiter! :D",
+            "date": 1453578600,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 41.763328,
+              "lng": 12.770973
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Die Allerbesten",
+        "posts": [
+          {
+            "id": 8,
+            "text": "Los gehts bei BreakOut",
+            "date": 1453537300,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 48.150835,
+              "lng": 11.581841
+            }
+          },
+          {
+            "id": 9,
+            "text": "Trampen macht Spaß",
+            "date": 1453558600,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 48.064885,
+              "lng": 11.963853
+            }
+          },
+          {
+            "id": 10,
+            "text": "Und weiter!",
+            "date": 1453568600,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 48.043222,
+              "lng": 12.334711
+            }
+          },
+          {
+            "id": 15,
+            "text": "gogo",
+            "date": 1453568600,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 48.191768,
+              "lng": 12.847826
+            }
+          },
+          {
+            "id": 16,
+            "text": "schöner see",
+            "date": 1453569480,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 47.583406,
+              "lng": 13.661378
+            }
+          },
+          {
+            "id": 17,
+            "text": "Ziel erreicht :D",
+            "date": 1453579480,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 47.041452,
+              "lng": 15.458160
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Noch ein tolles Team",
+        "posts": [
+          {
+            "id": 18,
+            "text": "Auf gehts",
+            "date": 1453554910,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 48.147692,
+              "lng": 11.579386
+            }
+          },
+          {
+            "id": 19,
+            "text": "Am Ammersee",
+            "date": 1453568150,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 48.080265,
+              "lng": 11.132395
+            }
+          },
+          {
+            "id": 20,
+            "text": "Noch ein See",
+            "date": 1453578800,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 47.493123,
+              "lng": 9.739567
+            }
+          },
+          {
+            "id": 21,
+            "text": "Und weiter gehts",
+            "date": 1453579800,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 46.901401,
+              "lng": 7.260584
+            }
+          },
+          {
+            "id": 22,
+            "text": "Und weiter! :D",
+            "date": 1453579980,
+            "picture": "http://lorempixel.com/640/480/",
+            "location": {
+              "lat": 47.318053,
+              "lng": 5.050037
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
